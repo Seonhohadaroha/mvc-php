@@ -6,7 +6,7 @@ class Controller
   {
     require_once '../app/models/' . $model . '.php';
 
-    return new $modelo();
+    return new $model();
   }
 
   // Load View
