@@ -9,7 +9,7 @@ class Controller
     return new $modelo();
   }
 
-  // Load Model
+  // Load View
   public function view($view, $data = [])
   {
     // Check if view exists
