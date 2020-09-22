@@ -9,6 +9,6 @@ define('DB_NAME_DATABASE', 'mvc');
 define( 'ROUTE_APP', dirname(dirname(__FILE__)) ); 
 
 // Route URL ejm: http://localhost/mvc/
-define('ROUTE_URL', '_URL_');
+define('ROUTE_URL', 'http://localhost/mvc');
 
-define('NAME_SITE', '_NAME_SITE');
+define('NAME_SITE', 'Framework MVC');

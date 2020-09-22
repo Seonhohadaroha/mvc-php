@@ -1,7 +1,5 @@
+<?php require ROUTE_APP . '/views/includes/header.php'  ?>
+
 <h1><?php echo $data['title']; ?></h1>
 
-<ul>
-  <?php foreach( $data['articles'] as $article ): ?>
-    <li><?php echo $article->title; ?></li>
-  <?php endforeach; ?>
-</ul>
+<?php require ROUTE_APP . '/views/includes/footer.php'  ?>
