@@ -10,7 +10,10 @@ En el Front-End se ha hecho uso de __Bootstrap__ y FontAwesome desde CDN incluy�
 
 ## Carpeta config
 
-Contiene las variables de configuración y conexión de base de datos, lo que facilita, la rápida puesta en marcha del proyecto.
+Contiene las variables de configuración y conexión de base de datos, lo que facilita, la rápida puesta en marcha del proyecto. 
+__ROUTE_APP:___ ruta fisica de la carpeta del proyecto.  
+__ROUTE_URL:___ ruta **URL** del proyecto.  
+__NAME_SITE:__  nombre del sitio o App.  
 
 ## Carpeta controller
 
