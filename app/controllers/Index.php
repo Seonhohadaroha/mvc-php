@@ -55,8 +55,6 @@ class Index extends Controller
         'phone'   => trim( $_POST['phone'] ),
       ];
 
-      
-
       if ( $this->userModel->updateUser( $data ) ) {
         redirection('/pages');
       } else {

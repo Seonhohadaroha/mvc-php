@@ -16,6 +16,14 @@ Esta carpeta es donde deben ir todos los controladores de la aplicación, ya que
 
 Contiene todos los modelos __(tablas)__ de la base de datos.
 
+El modelo __User.php__ tiene los métodos:
+__users()__: para obtener todos los registros de la tabla.
+__user($id)__: devuelve el registro especifico según el id dado.
+__add()__: agrega un nuevo registro ó usuario a la tabla users.
+__updateUser__: actualiza el usuario según el id pasado como parámetro desde la dirección del formulario de actualización.
+__deleteUser__: elimina el usuario según el id pasado como parámetro desde el formulario.
+
+
 ## Carpeta Views
 
 El proyecto se ha desarrollado de tal manera que los archivos de __header.php__ y __footer.php__ son estáticos teniendo un área en el body de la página que es la que va cambiando a medida que se va navegando por la App.
