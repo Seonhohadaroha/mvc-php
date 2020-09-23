@@ -38,7 +38,6 @@ class Core
       }
     }
 
-    // echo $this->method;
     $this->parameters[] = $url ? array_values($url) : [];
 
     call_user_func_array([$this->controller, $this->method], $this->parameters);
@@ -46,8 +45,6 @@ class Core
 
   public function url()
   {
-    // echo $_GET['url'] . 'method URL';
-
     if (isset($_GET['url'])) {
       $url = rtrim($_GET['url'], '/');
       $url = filter_var($url, FILTER_SANITIZE_URL);

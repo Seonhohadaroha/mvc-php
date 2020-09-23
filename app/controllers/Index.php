@@ -30,7 +30,7 @@ class Index extends Controller
       ];
 
       if ( $this->userModel->add( $data ) ) {
-        //redireccionar('paginas');
+        redirection('/pages');
       } else {
         die('Something went Wrong...');
       }
@@ -41,10 +41,7 @@ class Index extends Controller
         'phone'  => '',
       ];
 
-      $this->view('index/add', $data);
+      $this->view('pages/add', $data);
     }
-    
-
-    
   }
 }
