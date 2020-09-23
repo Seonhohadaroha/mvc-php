@@ -4,6 +4,10 @@ App realizada en __PHP__ con arquitectura Modelo - Vista - Controlador *(MVC)*, 
 
 Cuenta con uso de __constantes__, archivos __.htaccess__
 
+El pricipio *single* de __SOLID__, se puede ver en la clase __DB.php__ donde la única responsabilidad de la clase esta relacionada con tareas relacionadas con la base de datos.
+
+En el Front-End se ha hecho uso de __Bootstrap__ y FontAwesome desde CDN incluyéndolos en el __header.php__ del proyecto.
+
 ## Carpeta config
 
 Contiene las variables de configuración y conexión de base de datos, lo que facilita, la rápida puesta en marcha del proyecto.
