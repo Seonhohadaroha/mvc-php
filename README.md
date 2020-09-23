@@ -1,2 +1,3 @@
-# mvc-php
-Arquitectura MVC PHP
+# Arquitectura MVC
+
+App realizada en *PHP* con arquitectura Modelo - Vista - Controlador *(MVC)*
